@@ -1,0 +1,22 @@
+{
+  "name": "package-ts",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "tsc && node ./scripts/build.js"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@zhengxs-devkit/build": "^0.1.0",
+    "typescript": "^4.4.3"
+  },
+  "license": "MIT"
+}
